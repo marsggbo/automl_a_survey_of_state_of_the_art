@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AutoML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <script>
+        window.tctipConfig = {
+                staticPrefix: "http://static.tctip.com",
+                buttonImageId: 5,
+                //zanzhu--博客园右边出现"赞助"二字
+                //buttonTip: "zanzhu",
+                //dashang--博客园右边出现"打赏"二字
+                buttonTip: "dashang",
+                list: {
+                    alipay: {
+                        //修改一：修改支付宝收款码地址
+                        qrimg: "https://files.cnblogs.com/files/marsggbo/2.bmp"
+                    },
+                    weixin: {
+                        //修改二：修改微信收款码地址
+                        qrimg: "https://files.cnblogs.com/files/marsggbo/1.bmp"
+                    },
+                }
+            };
+    </script>
+    <script src="http://static.tctip.com/js/tctip.min.js"></script>
+
+    <div id="title">
+        <center>
+            <b style="font-size:2em;">AutoML</b>
+        </center>
+    </div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="./papers.html">Papers</a></li>
+                    <li><a href="./sites.html">Sites</a></li>
+                    <li><a href="./frameworks.html">Frameworks</a></li>
+                    <li><a href="./resources.html">Resources</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Author <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./intro.html">Introduction</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://www.cnblogs.com/marsggbo/" target="_new_blank">Blog</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://github.com/marsggbo" target="_new_blank">Github</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://github.com/marsggbo/automl/issues" target="_new_blank">Issues</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel-group" id="accordion">
+
+                    <!-- part 1 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    Conference & Journals
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Type</th>
+                                                <th>Introduction</th>
+                                                <th>Link</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>ICML AutoML 2014</td>
+                                                <td>Conference</td>
+                                                <td>International Conference Machine Learning</td>
+                                                <td><a href="https://sites.google.com/site/automlwsicml14/">https://sites.google.com/site/automlwsicml14/</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>ICML AutoML 2015</td>
+                                                <td>Conference</td>
+                                                <td>International Conference Machine Learning</td>
+                                                <td><a href="https://sites.google.com/site/automlwsicml15/">https://sites.google.com/site/automlwsicml15/</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>ICML AutoML 2016</td>
+                                                <td>Conference</td>
+                                                <td>International Conference Machine Learning</td>
+                                                <td><a href="https://sites.google.com/site/automl2016/">https://sites.google.com/site/automl2016/</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>ICML AutoML 2017</td>
+                                                <td>Conference</td>
+                                                <td>International Conference Machine Learning</td>
+                                                <td><a href="https://sites.google.com/site/automl2017icml/">https://sites.google.com/site/automl2017icml/</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>AAAI</td>
+                                                <td>Conference</td>
+                                                <td>American Association for Artificial Intelligence</td>
+                                                <td><a href="https://www.aaai.org/home.html">https://www.aaai.org/home.html</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>ICLR</td>
+                                                <td>Conference</td>
+                                                <td>International Conference on Learning Representations</td>
+                                                <td><a href="#">#</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>ICCV</td>
+                                                <td>Conference</td>
+                                                <td>International Conference on Computer Vision</td>
+                                                <td><a href="#">#</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>ECCV</td>
+                                                <td>Conference</td>
+                                                <td>European Conference on Computer Vision</td>
+                                                <td><a href="#">#</a></td>
+                                            <tr>
+                                            <tr>
+                                                <td>CVPR</td>
+                                                <td>Conference</td>
+                                                <td>Conference on Computer Vision and Pattern Recognition</td>
+                                                <td><a href="#">#</a></td>
+                                            <tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                Challenges
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Type</th>
+                                            <th>Introduction</th>
+                                            <th>Link</th>
+                                        </tr>
+                                        <tr>
+                                            <td>http://automl.chalearn.org/</td>
+                                            <td>Conference</td>
+                                            <td>Conference on Computer Vision and Pattern Recognition</td>
+                                            <td><a href="#">#</a></td>
+                                        <tr>
+                                    </thead></table>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                Updating...
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                            nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                Updating...
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                            nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('#collapseFour').collapse({
+                toggle: false
+            })
+        });
+        $(function () {
+            $('#collapseTwo').collapse('show')
+        });
+        $(function () {
+            $('#collapseThree').collapse('toggle')
+        });
+        $(function () {
+            $('#collapseOne').collapse('hide')
+        });
+    </script>
+
+    <br>
+    <br>
+    <br>
+    <div style="clear:both;"></div>
+
+    <footer style="color: white; background-color: rgb(24,24,24); ">
+        <h3 style="text-align: center; color: tomato; font-size: 16px;">
+            <b>
+                <span>MARSGGBO</span>
+                <span style="font-size: 25px;color: white;">♥</span>
+                原创
+            </b>
+            <br>
+            <br>
+        </h3>
+    </footer>
+</body>
+
+</html>

@@ -5,8 +5,8 @@
 
 body{
     display: block;
-    background: url("./images/bg1.jpg") fixed center center;
-    background-size: 100% 100%;
+    /* background: url("./images/bg2.jpg") fixed center center;
+    background-size: 100% 100%; */
 }
 
 #title{
@@ -20,19 +20,23 @@ body{
 }
 
 .row P{
-    background-color:black;
     margin-top: 10px;
     font-weight: bold;
     font-size: 16px;
+    color: white;
     padding:10px;
-    background-color: #ffffff;
+    background-color: black;
     border: 1px solid black;
     /* for IE */
-    filter:alpha(opacity=60);
-    /* CSS3 standard */
-    opacity:0.6;
+    filter:alpha(opacity=50);
+    /* CSS standard */
+    opacity:0.5;
     text-align:justify;
     border:none;
+}
+
+caption{
+    font-weight: bold;
 }
 
 footer{
