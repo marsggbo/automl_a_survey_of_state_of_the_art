@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+    background: url("./images/bg.jpg") fixed center center;
+    background-size: 100% 100%;
+}
+
+#title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-default{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.row P{
+    background-color:black;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    padding:10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+    text-align:justify;
+    border:none;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
