@@ -1,3 +1,18 @@
 paper_name, href, publish, year
-Autoaugment: Learning augmentation policies from data, https://arxiv.org/abs/1805.09501, CVPR, 2019
-Specaugment: A simple data augmentation method for automatic speech recognition, -, -, 2017
+Fast bayesian optimization of machine learning hyperparameters on large datasets,-,-,2016
+Learning transferable architectures for scalable image recognition,-,-,2017
+Regularized evolution for image classiﬁer architecture search,-,-,2018
+Towards automated deep learning: Efﬁcient joint neural architecture and hyperparameter search,-,-,2018
+Multi-Fidelity Automatic Hyper-Parameter Tuning via Transfer Series Expansion,-,-,2019
+Transfer learning with neural automl,-,-,2018
+Network morphism,-,-,2016
+Net2net: Accelerating learning via knowledge transfer,-,-,2015
+Surrogate benchmarks for hyperparameter optimization,-,ECAI,2014
+An evaluation of adaptive surrogate modeling based optimization with two benchmark problems,-,-,2014
+Efﬁcient benchmarking of hyperparameter optimizers via surrogates,-,-,2015
+Surrogate-based methods for black-box optimization,-,-,2017
+Progressive neural architecture search,-,-,2017
+Learning curve prediction with bayesian neural networks,-,-,2016
+Peephole: Predicting network performance before training,-,-,2017
+Speeding up automatic hyperparameter optimization of deep neural networks by extrapolation of learning curves,-,-,2015
+Early stopping without a validation set,-,-,2017

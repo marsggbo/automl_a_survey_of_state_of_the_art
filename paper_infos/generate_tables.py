@@ -19,11 +19,15 @@ with open('survey.csv') as f:
         rows.append(row)
     for row in sorted(rows, key=lambda x:int(x[-1]), reverse=True):
         paper_name = row[0]
-        href = row[1]
+        if row[1].strip()!='-':
+            href = f""" "{row[1]}" target="_blank" """
+        else:
+            href = """ "javascript:void(0)" style="color:black;text-decoration:none;cursor:text;"  """
+        
         publish = row[2]
         year = row[3]
         template = f"""
-            <tr><td><a href="{href}">{paper_name}</td>
+            <tr><td><a href={href}>{paper_name}</td>
                 <td>{publish}</td>
                 <td>{year}</td>
             </tr>
@@ -39,11 +43,14 @@ with open('dp.csv') as f:
         rows.append(row)
     for row in sorted(rows, key=lambda x:int(x[-1]), reverse=True):
         paper_name = row[0]
-        href = row[1]
+        if row[1].strip()!='-':
+            href = f""" "{row[1]}" target="_blank" """
+        else:
+            href = """ "javascript:void(0)" style="color:black;text-decoration:none;cursor:text;"  """
         publish = row[2]
         year = row[3]
         template = f"""
-            <tr><td><a href="{href}">{paper_name}</td>
+            <tr><td><a href={href}>{paper_name}</td>
                 <td>{publish}</td>
                 <td>{year}</td>
             </tr>
@@ -61,11 +68,15 @@ with open('fe.csv') as f:
         rows.append(row)
     for row in sorted(rows, key=lambda x:int(x[-1]), reverse=True):
         paper_name = row[0]
-        href = row[1]
+        if row[1].strip()!='-':
+            href = f""" "{row[1]}" target="_blank" """
+        else:
+            href = """ "javascript:void(0)" style="color:black;text-decoration:none;cursor:text;"  """
+        
         publish = row[2]
         year = row[3]
         template = f"""
-            <tr><td><a href="{href}">{paper_name}</td>
+            <tr><td><a href={href}>{paper_name}</td>
                 <td>{publish}</td>
                 <td>{year}</td>
             </tr>
@@ -82,11 +93,15 @@ with open('mg.csv') as f:
         rows.append(row)
     for row in sorted(rows, key=lambda x:int(x[-1]), reverse=True):
         paper_name = row[0]
-        href = row[1]
+        if row[1].strip()!='-':
+            href = f""" "{row[1]}" target="_blank" """
+        else:
+            href = """ "javascript:void(0)" style="color:black;text-decoration:none;cursor:text;"  """
+        
         publish = row[2]
         year = row[3]
         template = f"""
-            <tr><td><a href="{href}">{paper_name}</td>
+            <tr><td><a href={href}>{paper_name}</td>
                 <td>{publish}</td>
                 <td>{year}</td>
             </tr>
@@ -103,11 +118,15 @@ with open('me.csv') as f:
         rows.append(row)
     for row in sorted(rows, key=lambda x:int(x[-1]), reverse=True):
         paper_name = row[0]
-        href = row[1]
+        if row[1].strip()!='-':
+            href = f""" "{row[1]}" target="_blank" """
+        else:
+            href = """ "javascript:void(0)" style="color:black;text-decoration:none;cursor:text;"  """
+        
         publish = row[2]
         year = row[3]
         template = f"""
-            <tr><td><a href="{href}">{paper_name}</td>
+            <tr><td><a href={href}>{paper_name}</td>
                 <td>{publish}</td>
                 <td>{year}</td>
             </tr>

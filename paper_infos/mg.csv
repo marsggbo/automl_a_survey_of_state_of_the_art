@@ -1,3 +1,38 @@
 paper_name, href, publish, year
-Autoaugment: Learning augmentation policies from data, https://arxiv.org/abs/1805.09501, CVPR, 2019
-Specaugment: A simple data augmentation method for automatic speech recognition, -, -, 2017
+Neural architecture search with reinforcement learning,http://arxiv.org/abs/1611.01578,-,2016
+Efficient neural architecture search via parameter sharing,http://proceedings.mlr.press/v80/pham18a.html,ICML,2018
+Learning transferable architectures for scalable image recognition,-,-,2017
+Practical block-wise neural network architecture generation,-,-,2017
+Designing neural network architectures using reinforcement learning,-,-,2016
+Large-scale evolution of image classifiers,-,-,2017
+Regularized evolution for image classifier architecture search,-,-,2018
+Hierarchical representations for efficient architecture search,https://openreview.net/pdf?id=BJQRKzbA-,ICLR,2018
+Net2net: Accelerating learning via knowledge transfer,-,-,2015
+Efficient multi-objective neural architecture search via lamarckian evolution,-,-,2018
+Efficient architecture search by network transformation,-,AAAI,2018
+Automated Algorithm Configuration and Parameter Tuning,-,-,2011
+Response surface methodology for optimizing hyper parameters,-,-,,2006
+A practical guide to support vector classification,-,-,2003
+Maximum-likelihood estimation with a contracting-grid search algorithm,-,-,2010
+Random search for hyper-parameter optimization,http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf,JMLR,2012
+An empirical evaluation of deep architectures on problems with many factors of variation,-,ICML,2007
+Hyperband: A novel bandit-based approach to hyperparameter optimization,-,-,2016
+Genetic CNN,-,ICCV,2017
+A genetic programming approach to designing convolutional neural network architectures,-,-,2017
+Large-scale evolution of image classifiers,-,-,2017
+Evolving neural networks through augmenting topologies,-,-,2002
+Efficient multi-objective neural architecture search via lamarckian evolution,-,-,2018
+Gpyopt: A bayesian optimization framework in python,-,-,2016
+Practical bayesian optimization of machine learning algorithms,-,-,2012
+BOHB: Robust and efficient hyperparameter optimization at scale,https://arxiv.org/abs/1807.01774,-,2018
+Sequential model-based optimization for general algorithm configuration,-,-,2011
+Making a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures,http://proceedings.mlr.press/v28/bergstra13.pdf,-,2013
+Fast bayesian optimization of machine learning hyperparameters on large datasets,-,-,2016
+DARTS: Differentiable architecture search,-,-,2018
+Convolutional neural fabrics,-,NIPS,2016
+Connectivity learning in multi-branch networks,-,-,2017
+Differentiable neural network architecture search,-,-,2018
+Gradient-based hyperparameter optimization through reversible learning,-,-,2015
+Hyperparameter optimization with approximate gradient,-,-,2016
+ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware,https://arxiv.org/abs/1812.00332,ICLR,2018
+sharpDARTS: Faster and More Accurate Differentiable Architecture Search,-,-,2019
