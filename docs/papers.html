@@ -1,93 +1,132 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AutoML</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
-</head>
-<body>
 
-    <div class="container" id='test'>
-        <div class="row">
-            <div class="col-md-12">
-                    <div class="panel-group" id="accordion">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" 
-                                        href="#collapseOne">
-                                        Pipeline
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse in">
-                                    <div class="panel-body">
-                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
-                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
-                                        vice lomo.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" 
-                                        href="#collapseTwo">
-                                        Algorithm
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
-                                    cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
-                                    vice lomo.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" 
-                                        href="#collapseThree">
-                                        Area
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
-                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
-                                        vice lomo.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        function setHeight () {
-                var h = document.body.clientHeight;
-                window.parent.test(h);
-            }
-        setHeight();
-        // 页面高度改变时再次调用SetHeight，重置外层容器的高度
-        window.onresize = function() {// 监听窗口变化
-            setHeight();
-        }
-        document.getElementById ("test"). onclick = function() {
-            this.style.height = "500px";
-            setHeight();
-        }
-    </script>
-    <div style="clear:both;"></div>
-
-</body>
-</html>
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible"content="IE=edge"><title>AutoML</title><meta name="viewport"content="width=device-width, initial-scale=1"><link rel="stylesheet"type="text/css"media="screen"href="main.css"/><link rel="stylesheet"href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"><script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script><script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="index.js"></script></head><body><div class="container"id='test'><div class="row"><div class="col-md-12"><div class="panel-group"id="accordion"><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse"data-parent="#accordion"href="#collapseOne">Survey</a></h4></div><div id="collapseOne"class="panel-collapse collapse in"><div class="panel-body"><table class="table table-hover table-bordered"><thead><tr><td>Paper</td><td>Published</td><td>Year</td></tr></thead><tbody>
+            <tr><td><a href=" https://arxiv.org/pdf/1908.00709">AutoML: A Survey of the State-of-the-Art</td>
+                <td> -</td>
+                <td> 2019</td>
+            </tr>
+        
+            <tr><td><a href=" https://arxiv.org/abs/1904.12054">Survey on automated machine learning</td>
+                <td> -</td>
+                <td> 2019</td>
+            </tr>
+        
+            <tr><td><a href=" http://jmlr.org/papers/volume20/18-598/18-598.pdf">Neural architecture search: A survey</td>
+                <td> -</td>
+                <td> 2018</td>
+            </tr>
+        
+            <tr><td><a href=" https://arxiv.org/pdf/1810.13306">Taking human out of learning applications: A survey on automated machine learning</td>
+                <td> -</td>
+                <td> 2018</td>
+            </tr>
+        </tbody></table></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse"data-parent="#accordion"href="#collapseTwo">Data Preparation</a></h4></div><div id="collapseTwo"class="panel-collapse collapse"><div class="panel-body"><table class="table table-hover table-bordered"><thead><tr><td>Paper</td><td>Published</td><td>Year</td></tr></thead><tbody>
+            <tr><td><a href=" https://arxiv.org/abs/1805.09501">Autoaugment: Learning augmentation policies from data</td>
+                <td> CVPR</td>
+                <td> 2019</td>
+            </tr>
+        
+            <tr><td><a href=" http://openaccess.thecvf.com/content_CVPR_2019/papers/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.pdf">A style-based generator architecture for generative adversarial networks</td>
+                <td> CVPR</td>
+                <td> 2019</td>
+            </tr>
+        
+            <tr><td><a href="-">Alphaclean: Automatic generation of data cleaning pipelines</td>
+                <td>-</td>
+                <td>2019</td>
+            </tr>
+        
+            <tr><td><a href="-">Qanet: Combining local convolution with global self-attention for reading comprehension</td>
+                <td>-</td>
+                <td>2018</td>
+            </tr>
+        
+            <tr><td><a href=" -">A survey on data collection for machine learning: a big data-ai integration perspective</td>
+                <td>-</td>
+                <td>2018</td>
+            </tr>
+        
+            <tr><td><a href=" -">Specaugment: A simple data augmentation method for automatic speech recognition</td>
+                <td> -</td>
+                <td> 2017</td>
+            </tr>
+        
+            <tr><td><a href="-">Data noising as smoothing in neural network language models</td>
+                <td>-</td>
+                <td>2017</td>
+            </tr>
+        
+            <tr><td><a href=" -">Openai gym</td>
+                <td> -</td>
+                <td> 2016</td>
+            </tr>
+        
+            <tr><td><a href="-">Activeclean: An interactive data cleaning framework for modern machine learning</td>
+                <td>-</td>
+                <td>2016</td>
+            </tr>
+        
+            <tr><td><a href="-">Katara: A data cleaning system powered by knowledge bases and crowdsourcing</td>
+                <td>-</td>
+                <td>2015</td>
+            </tr>
+        
+            <tr><td><a href="-">SampleClean: Fast and Reliable Analytics on Dirty Data</td>
+                <td>-</td>
+                <td>2015</td>
+            </tr>
+        
+            <tr><td><a href="-">Democratic co-learning</td>
+                <td>-</td>
+                <td>2004</td>
+            </tr>
+        
+            <tr><td><a href="-">Unsupervised word sense disambiguation rivaling supervised methods</td>
+                <td>-</td>
+                <td>1995</td>
+            </tr>
+        </tbody></table></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse"data-parent="#accordion"href="#collapseThree">Feature Engineering</a></h4></div><div id="collapseThree"class="panel-collapse collapse"><div class="panel-body"><table class="table table-hover table-bordered"><thead><tr><td>Paper</td><td>Published</td><td>Year</td></tr></thead><tbody>
+            <tr><td><a href="-">Relational autoencoder for feature extraction</td>
+                <td>-</td>
+                <td>2017</td>
+            </tr>
+        
+            <tr><td><a href="-">Unsupervised feature extraction with autoencoder trees</td>
+                <td>-</td>
+                <td>2017</td>
+            </tr>
+        
+            <tr><td><a href="-">Interactive feature space construction using semantic information</td>
+                <td>-</td>
+                <td>2009</td>
+            </tr>
+        
+            <tr><td><a href="-">Functional trees</td>
+                <td>-</td>
+                <td>2004</td>
+            </tr>
+        
+            <tr><td><a href="-">Evolutionary feature space transformation</td>
+                <td>-</td>
+                <td>1998</td>
+            </tr>
+        </tbody></table></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse"data-parent="#accordion"href="#collapseFour">Model Generation</a></h4></div><div id="collapseFour"class="panel-collapse collapse"><div class="panel-body"><table class="table table-hover table-bordered"><thead><tr><td>Paper</td><td>Published</td><td>Year</td></tr></thead><tbody>
+            <tr><td><a href=" https://arxiv.org/abs/1805.09501">Autoaugment: Learning augmentation policies from data</td>
+                <td> CVPR</td>
+                <td> 2019</td>
+            </tr>
+        
+            <tr><td><a href=" -">Specaugment: A simple data augmentation method for automatic speech recognition</td>
+                <td> -</td>
+                <td> 2017</td>
+            </tr>
+        </tbody></table></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse"data-parent="#accordion"href="#collapseFive">Model Evaluation</a></h4></div><div id="collapseFive"class="panel-collapse collapse"><div class="panel-body"><table class="table table-hover table-bordered"><thead><tr><td>Paper</td><td>Published</td><td>Year</td></tr></thead><tbody>
+            <tr><td><a href=" https://arxiv.org/abs/1805.09501">Autoaugment: Learning augmentation policies from data</td>
+                <td> CVPR</td>
+                <td> 2019</td>
+            </tr>
+        
+            <tr><td><a href=" -">Specaugment: A simple data augmentation method for automatic speech recognition</td>
+                <td> -</td>
+                <td> 2017</td>
+            </tr>
+        </tbody></table></div></div></div></div></div></div></div><script>function setHeight(){var h=document.body.clientHeight;window.parent.test(h)}setHeight();window.onresize=function(){setHeight()}document.getElementById("test").onclick=function(){this.style.height="500px";setHeight()}</script><div style="clear:both;"></div></body></html>
