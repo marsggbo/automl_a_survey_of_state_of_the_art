@@ -15,4 +15,5 @@ jobs:
         python-version: 3.7
     - name: Update paper list
       run: |
-        python paper_infos/generate_tables.py
+        cd paper_infos
+        python generate_tables.py
