@@ -1,7 +1,7 @@
 paper_name, href, publish, year
 Neural architecture search with reinforcement learning,http://arxiv.org/abs/1611.01578,-,2016
 Efficient neural architecture search via parameter sharing,http://proceedings.mlr.press/v80/pham18a.html,ICML,2018
-Learning transferable architectures for scalable image recognition,-,-,2017
+Learning transferable architectures for scalable image recognition,https://arxiv.org/abs/1707.07012,CVPR,2017
 Practical block-wise neural network architecture generation,-,-,2017
 Designing neural network architectures using reinforcement learning,-,-,2016
 Large-scale evolution of image classifiers,-,-,2017
@@ -11,7 +11,7 @@ Net2net: Accelerating learning via knowledge transfer,-,-,2015
 Efficient multi-objective neural architecture search via lamarckian evolution,-,-,2018
 Efficient architecture search by network transformation,-,AAAI,2018
 Automated Algorithm Configuration and Parameter Tuning,-,-,2011
-Response surface methodology for optimizing hyper parameters,-,-,,2006
+Response surface methodology for optimizing hyper parameters,-,-,2006
 A practical guide to support vector classification,-,-,2003
 Maximum-likelihood estimation with a contracting-grid search algorithm,-,-,2010
 Random search for hyper-parameter optimization,http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf,JMLR,2012
