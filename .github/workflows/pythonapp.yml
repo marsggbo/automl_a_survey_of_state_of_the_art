@@ -17,10 +17,9 @@ jobs:
       run: |
         cd paper_infos
         python generate_tables.py
-        ls
-        cd ..
-        git config --global user.email "1435679023@qq.com"
-        git config --global user.name "marsggbo"
-        git add .
-        git commit -m update
-        git push origin master
+    - name: git push
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: docs # The folder the action should deploy.
