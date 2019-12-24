@@ -22,9 +22,13 @@ jobs:
         git config --global user.email 1435679023@qq.com
         git config --global user.name marsggbo
     - name: git push
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: docs # The folder the action should deploy.
+      run: |
+        cd ..
+        git add .
+        git commit -m "update"
+        git push origin master
+#       with:
+#         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#         BRANCH: master # The branch the action should deploy to.
+#         FOLDER: docs # The folder the action should deploy.
