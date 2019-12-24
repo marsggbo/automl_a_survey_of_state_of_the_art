@@ -15,15 +15,18 @@ jobs:
         python-version: 3.7
     - name: Update paper list
       run: |
+        pwd
         ls . -al
         cd paper_infos
         python generate_tables.py
         ls .. -al
-        git config --global user.email 1435679023@qq.com
-        git config --global user.name marsggbo
+        cd ..
+        pwd
     - name: git push
       run: |
-        cd ..
+        pwd
+        git config --global user.email 1435679023@qq.com
+        git config --global user.name marsggbo
         git add .
         git commit -m "update"
         git push origin master
