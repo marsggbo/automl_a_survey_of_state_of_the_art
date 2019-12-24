@@ -17,6 +17,8 @@ jobs:
       run: |
         cd paper_infos
         python generate_tables.py
+        git config --global user.email "1435679023@qq.com"
+        git config --global user.name "marsggbo"
     - name: git push
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
