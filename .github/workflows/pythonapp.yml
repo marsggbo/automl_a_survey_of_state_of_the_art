@@ -16,23 +16,19 @@ jobs:
     - name: Update paper list
       run: |
         pwd
-        ls . -al
         cd paper_infos
         pwd
         python generate_tables.py
-        ls .. -al
         cd ..
         pwd
-    - name: git push
+    - name: commit
       run: |
         pwd
         git config --global user.email 1435679023@qq.com
         git config --global user.name marsggbo
         git add .
-        git commit -m "update"
-        git push origin
-#       with:
-#         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-#         BRANCH: master # The branch the action should deploy to.
-#         FOLDER: docs # The folder the action should deploy.
+        git commit -m "update" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
