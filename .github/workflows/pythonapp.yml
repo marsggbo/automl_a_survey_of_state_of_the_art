@@ -18,6 +18,7 @@ jobs:
         pwd
         ls . -al
         cd paper_infos
+        pwd
         python generate_tables.py
         ls .. -al
         cd ..
@@ -29,7 +30,7 @@ jobs:
         git config --global user.name marsggbo
         git add .
         git commit -m "update"
-        git push origin master
+        git push
 #       with:
 #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
