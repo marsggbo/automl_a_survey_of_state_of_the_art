@@ -19,6 +19,8 @@ jobs:
         python generate_tables.py
         ls
         cd ..
+        git config --global user.email "1435679023@qq.com"
+        git config --global user.name "marsggbo"
         git add .
         git commit -m update
         git push origin master
