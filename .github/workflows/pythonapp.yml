@@ -17,3 +17,8 @@ jobs:
       run: |
         cd paper_infos
         python generate_tables.py
+        ls
+        cd ..
+        git add .
+        git commit -m update
+        git push origin master
