@@ -16,6 +16,7 @@ jobs:
     - name: Update paper list
       run: |
         cd paper_infos
+        
         python generate_tables.py
         git config --global user.email "1435679023@qq.com"
         git config --global user.name "marsggbo"
