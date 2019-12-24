@@ -15,15 +15,10 @@ jobs:
         python-version: 3.7
     - name: Update paper list
       run: |
-        pwd
         cd paper_infos
-        pwd
         python generate_tables.py
-        cd ..
-        pwd
     - name: commit
       run: |
-        pwd
         git config --global user.email 1435679023@qq.com
         git config --global user.name marsggbo
         git add .
