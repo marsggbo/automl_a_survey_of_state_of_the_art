@@ -30,7 +30,7 @@ jobs:
         git config --global user.name marsggbo
         git add .
         git commit -m "update"
-        git push
+        git push origin
 #       with:
 #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
