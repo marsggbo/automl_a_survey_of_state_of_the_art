@@ -2,7 +2,7 @@ paper_name, href, publish, year
 Neural architecture search with reinforcement learning,http://arxiv.org/abs/1611.01578,-,2016
 Efficient neural architecture search via parameter sharing,http://proceedings.mlr.press/v80/pham18a.html,ICML,2018
 Learning transferable architectures for scalable image recognition,https://arxiv.org/abs/1707.07012,CVPR,2017
-Practical block-wise neural network architecture generation,-,-,2017
+Practical block-wise neural network architecture generation,https://arxiv.org/abs/1708.05552,CVPR,2017
 Designing neural network architectures using reinforcement learning,-,-,2016
 Large-scale evolution of image classifiers,-,-,2017
 Regularized evolution for image classifier architecture search,-,-,2018
