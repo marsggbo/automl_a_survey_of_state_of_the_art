@@ -16,7 +16,7 @@ jobs:
     - name: Update paper list
       run: |
         cd paper_infos
-        python generate_tables.py
+        python automl_page.py
     - name: commit
       run: |
         git config --global user.email 1435679023@qq.com

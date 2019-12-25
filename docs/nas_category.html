@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AutoML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .treegrid-indent {
+            width: 0px;
+            height: 16px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .treegrid-expander {
+            width: 0px;
+            height: 16px;
+            display: inline-block;
+            position: relative;
+            left:-17px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id='test'>
+        <div class="row">
+            <div class="col-md-12">
+                <table id="tree-table" class="table table-hover table-bordered">
+                    <th>Paper</th><th>Publish</th><th>Year</th>
+                    <tbody>
+                        <!-- Model Generation -->
+                        <tr data-id="1" data-parent="0" data-level="1">
+                            <td data-column="name" colspan="3">Model Generation</td>
+                        </tr>
+                            <!-- Model Structure -->
+                            <tr data-id="11" data-parent="1" data-level="2">
+                                <td data-column="name" colspan="3">Model Structure</td>
+                            </tr>
+                                <!-- Entire Structure -->
+                                <tr data-id="111" data-parent="11" data-level="3">
+                                    <td data-column="name" colspan="3">Entire Structure</td>
+                                </tr>
+                                    <tr data-parent="111" data-level="4">
+                                        <td data-column="name">Node 1</td>
+                                        <td>Additional info3</td>
+                                        <td>Additional info3</td>
+                                    </tr>
+                                <!-- Cell-based Structure -->
+                                <tr data-id="112" data-parent="11" data-level="3">
+                                    <td data-column="name" colspan="3">Cell-based Structure</td>
+                                </tr>
+                                    <tr data-parent="112" data-level="4">
+                                        <td data-column="name">Node 1</td>
+                                        <td>Additional info3</td>
+                                        <td>Additional info3</td>
+                                    </tr>
+                                <!-- Other Structure -->
+                                <tr data-id="113" data-parent="11" data-level="3">
+                                    <td data-column="name" colspan="3">Other Structure</td>
+                                </tr>
+                                    <tr data-parent="113" data-level="4">
+                                        <td data-column="name">Node 1</td>
+                                        <td>Additional info3</td>
+                                        <td>Additional info3</td>
+                                    </tr>
+                            
+                            <!-- Hyperparameter Optimization -->
+                            <tr data-id="12" data-parent="1" data-level="2">
+                                <td data-column="name" colspan="3">Hyperparameter Optimization</td>
+                            </tr>
+                                <!-- Random Search -->
+                                <tr data-id="121" data-parent="12" data-level="3">
+                                    <td data-column="name" colspan="3">Random Search</td>
+                                </tr>
+                                    <tr data-parent="121" data-level="4">
+                                        <td data-column="name">Node 1</td>
+                                        <td>Additional info3</td>
+                                        <td>Additional info3</td>
+                                    </tr>
+                                <!-- Reinforcement Learning -->
+                                <tr data-id="122" data-parent="12" data-level="3">
+                                    <td data-column="name" colspan="3">Reinforcement</td>
+                                </tr>
+                                    <tr data-parent="122" data-level="4">
+                                        <td data-column="name">Node 1</td>
+                                        <td>Additional info3</td>
+                                        <td>Additional info3</td>
+                                    </tr>
+                                <!-- Gradient-descent -->
+                                <tr data-id="123" data-parent="12" data-level="3">
+                                    <td data-column="name" colspan="3">Gradient-descent</td>
+                                </tr>
+                                    <tr data-parent="123" data-level="4">
+                                        <td data-column="name">Node 1</td>
+                                        <td>Additional info3</td>
+                                        <td>Additional info3</td>
+                                    </tr>
+                                <!-- Evolutionary -->
+                                <tr data-id="124" data-parent="12" data-level="3">
+                                    <td data-column="name" colspan="3">Evolutionary</td>
+                                </tr>
+                                    <tr data-parent="124" data-level="4">
+                                        <td data-column="name">Node 1</td>
+                                        <td>Additional info3</td>
+                                        <td>Additional info3</td>
+                                    </tr>
+        
+                        <!-- Model Estimation -->
+                        <tr data-id="2" data-parent="0" data-level="1">
+                            <td data-column="name" colspan="3">Model Estimation</td>
+                        </tr>
+                            <!-- Fidelity -->
+                            <tr data-id="21" data-parent="2" data-level="2">
+                                <td data-column="name" colspan="3">Fidelity</td>
+                            </tr>
+                                <tr data-parent="21" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>
+                            <!-- One-shot -->
+                            <tr data-id="22" data-parent="2" data-level="2">
+                                <td data-column="name" colspan="3">One-shot</td>
+                            </tr>
+                                <tr data-parent="22" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>
+                            <!-- Early-stopping -->
+                            <tr data-id="23" data-parent="2" data-level="2">
+                                <td data-column="name" colspan="3">Early-stopping</td>
+                            </tr>
+                                <tr data-parent="23" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>
+                            <!-- Surrogate -->
+                            <tr data-id="24" data-parent="2" data-level="2">
+                                <td data-column="name" colspan="3">Surrogate</td>
+                            </tr>
+                                <tr data-parent="24" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>
+                            
+                            <!-- Hard-ware -->
+                            <tr data-id="25" data-parent="2" data-level="2">
+                                <td data-column="name" colspan="3">Hard-ware</td>
+                            </tr>
+                                <tr data-parent="25" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>
+                            
+                            <!-- Transfer Learning -->
+                            <tr data-id="25" data-parent="2" data-level="2">
+                                <td data-column="name" colspan="3">Transfer Learning</td>
+                            </tr>
+                                <tr data-parent="25" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>
+                        
+                        <!-- Applications -->
+                        <tr data-id="3" data-parent="0" data-level="1">
+                            <td data-column="name" colspan="3">Applications</td>
+                        </tr>
+                            <!-- Image Classification -->
+                            <tr data-id="31" data-parent="3" data-level="2">
+                                <td data-column="name" colspan="3">Image Classification</td>
+                            </tr>
+                                <tr data-parent="31" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>
+                            <!-- Image Segmentation -->
+                            <tr data-id="32" data-parent="3" data-level="2">
+                                <td data-column="name" colspan="3">Image Segmentation</td>
+                            </tr>
+                                <tr data-parent="32" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>    
+                            
+                            <!-- Object Detection -->
+                            <tr data-id="33" data-parent="3" data-level="2">
+                                <td data-column="name" colspan="3">Object Detection</td>
+                            </tr>
+                                <tr data-parent="33" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>    
+                            
+                            <!-- 3D Tasks -->
+                            <tr data-id="34" data-parent="3" data-level="2">
+                                <td data-column="name" colspan="3">3D Tasks</td>
+                            </tr>
+                                <tr data-parent="34" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>            
+                            
+                            <!-- Model Compression -->
+                            <tr data-id="35" data-parent="3" data-level="2">
+                                <td data-column="name" colspan="3">Model Compression</td>
+                            </tr>
+                                <tr data-parent="35" data-level="3">
+                                    <td data-column="name">Node 1</td>
+                                    <td>Additional info3</td>
+                                    <td>Additional info3</td>
+                                </tr>            
+                            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        function setHeight() {
+            var h = document.body.clientHeight;
+            window.parent.test(h)
+        }
+        setHeight();
+        window.onresize = function () {
+            setHeight()
+        }
+        document.getElementById("test").onclick = function () {
+            this.style.height = "500px";
+            setHeight()
+        }
+    </script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <script src="js/javascript.js"></script>
+    <div style="clear:both;"></div>
+</body>
+
+</html>
