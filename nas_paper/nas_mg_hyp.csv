@@ -1,2 +1,14 @@
 paper_name, href, publish, comment, year
-Once for All: Train One Network and Specialize it for Efficient Deployment,https://arxiv.org/abs/1908.09791,-,-,one-shot,2019
+Automated Algorithm Configuration and Parameter Tuning,-,-,-,2011
+Response surface methodology for optimizing hyper parameters,-,-,-,2006
+A practical guide to support vector classification,-,-,-,2003
+Maximum-likelihood estimation with a contracting-grid search algorithm,-,-,-,2010
+Random search for hyper-parameter optimization,http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf,JMLR,-,2012
+An empirical evaluation of deep architectures on problems with many factors of variation,-,ICML,-,2007
+Hyperband: A novel bandit-based approach to hyperparameter optimization,-,-,-,2016
+BOHB: Robust and efficient hyperparameter optimization at scale,https://arxiv.org/abs/1807.01774,-,-,2018
+Sequential model-based optimization for general algorithm configuration,-,-,-,2011
+Making a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures,http://proceedings.mlr.press/v28/bergstra13.pdf,-,-,2013
+Fast bayesian optimization of machine learning hyperparameters on large datasets,-,-,-,2016
+Gradient-based hyperparameter optimization through reversible learning,-,-,-,2015
+Hyperparameter optimization with approximate gradient,-,-,-,2016

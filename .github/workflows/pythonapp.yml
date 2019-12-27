@@ -17,6 +17,8 @@ jobs:
       run: |
         cd paper_infos
         python automl_page.py
+        cd ../nas_paper
+        python nas_page.py
     - name: commit
       run: |
         git config --global user.email 1435679023@qq.com

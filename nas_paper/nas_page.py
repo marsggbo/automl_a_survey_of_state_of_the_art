@@ -15,7 +15,7 @@ import csv
 
 def generate_html(csv_file, data_parent, data_level):
     templates = []
-    with open(csv_file) as f:
+    with open(csv_file, encoding='utf-8') as f:
         f_csv = csv.reader(f)
         headers = next(f_csv)
         rows = []
@@ -52,5 +52,5 @@ full_page = """
     model_estimation,
     application)
 
-with open('../docs/nas_category.html', 'w') as f:
+with open('../docs/nas_category.html', 'w', encoding='utf-8') as f:
     f.write(full_page)
