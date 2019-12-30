@@ -12,3 +12,4 @@ Making a science of model search: Hyperparameter optimization in hundreds of dim
 Fast bayesian optimization of machine learning hyperparameters on large datasets,-,-,-,2016
 Gradient-based hyperparameter optimization through reversible learning,-,-,-,2015
 Hyperparameter optimization with approximate gradient,-,-,-,2016
+Learning to reinforcement learn for Neural Architecture Search,https://arxiv.org/pdf/1911.03769.pdf,-,RL,2019

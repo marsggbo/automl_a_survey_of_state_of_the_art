@@ -16,3 +16,9 @@ Learning curve prediction with bayesian neural networks,-,-,early stopping,2016
 Peephole: Predicting network performance before training,-,-,surrogate,2017
 Speeding up automatic hyperparameter optimization of deep neural networks by extrapolation of learning curves,-,-,early stopping,2015
 Early stopping without a validation set,-,-,early stopping,2017
+Performance Prediction Based on Neural Architecture Features,https://ieeexplore.ieee.org/abstract/document/8901943,CCHI,surrogate,2019
+Ranking architectures using meta-learning,https://arxiv.org/abs/1911.11481,-,surrogate,2019
+Meta-Learning of Neural Architectures for Few-Shot Learning,https://arxiv.org/abs/1911.11090,-,few-shot,2019
+Exploiting Operation Importance for Differentiable Neural Architecture Search,https://arxiv.org/abs/1911.10511,-,-,2019
+Multi-Objective Neural Architecture Search via Predictive Network Performance Optimization,https://arxiv.org/abs/1911.09336,-,surrogate,2019
+Periodic Spectral Ergodicity: A Complexity Measure for Deep Neural Networks and Neural Architecture Search,https://arxiv.org/abs/1911.07831,-,-,2019

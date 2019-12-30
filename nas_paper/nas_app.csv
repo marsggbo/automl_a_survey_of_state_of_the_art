@@ -4,3 +4,16 @@ N2N Learning: Network to Network Compression via Policy Gradient Reinforcement L
 AMC: AutoML for Model Compression and Acceleration on Mobile Devices, https://arxiv.org/abs/1802.03494, -, compression, 2019
 MixConv: Mixed Depthwise Convolutional Kernels,https://arxiv.org/abs/1907.09595,-, compression,2019
 Search to Distill: Pearls are Everywhere but not the Eyes,https://arxiv.org/abs/1911.09074,-,conpression (knowledge distillation),2019
+SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection,https://arxiv.org/abs/1911.09929,-,object detection,2019
+EfficientDet: Scalable and Efficient Object Detection,https://arxiv.org/abs/1911.09070,-,object detection,2019
+NAIS: Neural Architecture and Implementation Search and its Applications in Autonomous Driving,https://arxiv.org/abs/1911.07446,-,autonomous driving,2019
+Neural Recurrent Structure Search for Knowledge Graph Embedding,https://arxiv.org/abs/1911.07132,-,knowledge graph,2019
+AutoPrune: Automatic Network Pruning by Regularizing Auxiliary Parameters,http://papers.nips.cc/paper/9521-autoprune-automatic-network-pruning-by-regularizing-auxiliary-parameters.pdf,NeurIPS,compression,2019
+Improved Differentiable Architecture Search for Language Modeling and Named Entity Recognition,https://www.aclweb.org/anthology/D19-1367/,EMNLP-IJCNLP,Language Modeling and Named Entity Recognition,2019
+Person Re-identification with Neural Architecture Search,https://link.springer.com/chapter/10.1007/978-3-030-31654-9_46,PRCV,Person Re-identification,2019
+Auto-FPN: Automatic Network Architecture Adaptation for Object Detection Beyond Classification,http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Auto-FPN_Automatic_Network_Architecture_Adaptation_for_Object_Detection_Beyond_Classification_ICCV_2019_paper.pdf,ICCV,object detection,2019
+Efficient Structured Pruning and Architecture Searching for Group Convolution,http://openaccess.thecvf.com/content_ICCVW_2019/papers/NeurArch/Zhao_Efficient_Structured_Pruning_and_Architecture_Searching_for_Group_Convolution_ICCVW_2019_paper.pdf,ICCV,compression, 2019
+MSNet: Structural Wired Neural Architecture Search for Internet of Things,http://openaccess.thecvf.com/content_ICCVW_2019/papers/NeurArch/Cheng_MSNet_Structural_Wired_Neural_Architecture_Search_for_Internet_of_Things_ICCVW_2019_paper.pdf,ICCV,IoT,2019
+Scalable Neural Architecture Search for 3D Medical Image Segmentation,https://arxiv.org/abs/1906.05956,MICCAI,3D image segmentation,2019
+Neural Architecture Search for Adversarial Medical Image Segmentation ,https://link.springer.com/chapter/10.1007/978-3-030-32226-7_92,MICCAI,image segmentation,2019
+Searching Learning Strategy with Reinforcement Learning for 3D Medical Image Segmentation,https://link.springer.com/chapter/10.1007/978-3-030-32245-8_1,MICCAI,image segmentation,2019
