@@ -17,3 +17,11 @@ MSNet: Structural Wired Neural Architecture Search for Internet of Things,http:/
 Scalable Neural Architecture Search for 3D Medical Image Segmentation,https://arxiv.org/abs/1906.05956,MICCAI,3D image segmentation,2019
 Neural Architecture Search for Adversarial Medical Image Segmentation ,https://link.springer.com/chapter/10.1007/978-3-030-32226-7_92,MICCAI,image segmentation,2019
 Searching Learning Strategy with Reinforcement Learning for 3D Medical Image Segmentation,https://link.springer.com/chapter/10.1007/978-3-030-32245-8_1,MICCAI,image segmentation,2019
+Efficient Residual Dense Block Search for Image Super-Resolution,https://arxiv.org/abs/1909.11409,-,image super-resolution,2019
+IR-NAS: Neural Architecture Search for Image Restoration,https://arxiv.org/abs/1909.08228,-,image restoration,2019
+SegNAS3D: Network Architecture Search with Derivative-Free Global Optimization for 3D Image Segmentation,https://arxiv.org/abs/1909.05962,image segmentation,2019
+Searching for Accurate Binary Neural Architectures,https://arxiv.org/abs/1909.07378,ICCV,Binary network & Compression,2019
+Improving Keyword Spotting and Language Identification via Neural Architecture Search at Scale,https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1916.pdf,InterSpeech,language identification&keyword spotting,2019
+Graph-guided Architecture Search for Real-time Semantic Segmentation,https://arxiv.org/abs/1909.06793,-,image segmentation,2019
+Bayesian Optimization of Neural Architectures for Human Activity Recognition,https://link.springer.com/chapter/10.1007/978-3-030-13001-5_12,Human Activity Sensing,2019
+Automated deep learning design for medical image classification by health-care professionals with no coding experience: a feasibility study,https://www.sciencedirect.com/science/article/pii/S2589750019301086,The Lancet Digital Health,medical image classification,2019

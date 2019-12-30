@@ -22,3 +22,4 @@ Meta-Learning of Neural Architectures for Few-Shot Learning,https://arxiv.org/ab
 Exploiting Operation Importance for Differentiable Neural Architecture Search,https://arxiv.org/abs/1911.10511,-,-,2019
 Multi-Objective Neural Architecture Search via Predictive Network Performance Optimization,https://arxiv.org/abs/1911.09336,-,surrogate,2019
 Periodic Spectral Ergodicity: A Complexity Measure for Deep Neural Networks and Neural Architecture Search,https://arxiv.org/abs/1911.07831,-,-,2019
+DARTS+: Improved Differentiable Architecture Search with Early Stopping,https://arxiv.org/abs/1909.06035,-,early-stopping,2019
