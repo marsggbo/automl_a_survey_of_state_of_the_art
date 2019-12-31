@@ -92,7 +92,7 @@ with open('mg.csv') as f:
     for row in f_csv:
         if str(row).strip():
             rows.append(row)
-    for row in sorted(rows, key=lambda x:int(x[-1],x[-2]), reverse=True):
+    for row in sorted(rows, key=lambda x:(int(x[-1]),x[-2]), reverse=True):
         paper_name = row[0]
         if row[1].strip()!='-':
             href = f""" "{row[1]}" target="_blank" """
