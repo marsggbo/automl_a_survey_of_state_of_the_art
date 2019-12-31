@@ -15,4 +15,3 @@ Hyperparameter optimization with approximate gradient,-,-,-,2016
 Learning to reinforcement learn for Neural Architecture Search,https://arxiv.org/pdf/1911.03769.pdf,-,RL,2019
 A Novel Automatic CNN Architecture Design Approach Based on Genetic Algorithm,https://link.springer.com/chapter/10.1007/978-3-030-31129-2_43,AISI,Evolutionary,2019
 Evolving deep neural networks by multi-objective particle swarm optimization for image classification,https://arxiv.org/abs/1904.09035,GECCO,evolutionary&multi-objective particle swarm,2019
-
