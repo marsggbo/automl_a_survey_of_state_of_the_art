@@ -25,3 +25,10 @@ Improving Keyword Spotting and Language Identification via Neural Architecture S
 Graph-guided Architecture Search for Real-time Semantic Segmentation,https://arxiv.org/abs/1909.06793,-,image segmentation,2019
 Bayesian Optimization of Neural Architectures for Human Activity Recognition,https://link.springer.com/chapter/10.1007/978-3-030-13001-5_12,Human Activity Sensing,2019
 Automated deep learning design for medical image classification by health-care professionals with no coding experience: a feasibility study,https://www.sciencedirect.com/science/article/pii/S2589750019301086,The Lancet Digital Health,medical image classification,2019
+Auto-GNN: Neural Architecture Search of Graph Neural Networks,https://arxiv.org/abs/1909.03184,-,GAN,2019
+Efficient Neural Architecture Transformation Search in Channel-Level for Object Detection,https://arxiv.org/abs/1909.02293,-,object detection,2019
+Training compact neural networks via auxiliary overparameterization,https://arxiv.org/abs/1909.02214,-,compression, 2019
+AutoGAN: Neural Architecture Search for Generative Adversarial Networks,https://arxiv.org/abs/1908.03835,ICCV,GAN,2019
+Refining the Structure of Neural Networks Using Matrix Conditioning,https://arxiv.org/abs/1908.02400,-,compression,2019
+SqueezeNAS: Fast neural architecture search for faster semantic segmentation,https://arxiv.org/abs/1908.01748,-,semantic segmentation,2019
+Architecture Search for Image Inpainting,https://link.springer.com/chapter/10.1007/978-3-030-22796-8_12,International Symposium on Neural Networks,image inpainting,2019

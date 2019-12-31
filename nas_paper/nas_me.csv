@@ -23,3 +23,4 @@ Exploiting Operation Importance for Differentiable Neural Architecture Search,ht
 Multi-Objective Neural Architecture Search via Predictive Network Performance Optimization,https://arxiv.org/abs/1911.09336,-,surrogate,2019
 Periodic Spectral Ergodicity: A Complexity Measure for Deep Neural Networks and Neural Architecture Search,https://arxiv.org/abs/1911.07831,-,-,2019
 DARTS+: Improved Differentiable Architecture Search with Early Stopping,https://arxiv.org/abs/1909.06035,-,early-stopping,2019
+Once for All: Train One Network and Specialize it for Efficient Deployment,https://arxiv.org/abs/1908.09791,-,one-shot,2019

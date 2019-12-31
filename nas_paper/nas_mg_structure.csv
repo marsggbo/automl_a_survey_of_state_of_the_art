@@ -34,3 +34,9 @@ Towards modular and programmable architecture search,https://arxiv.org/abs/1909.
 Understanding and Improving One-shot Neural Architecture Optimization,https://arxiv.org/abs/1909.10815,-,one-shot,2019
 Neural Architecture Search for Class-incremental Learning,https://arxiv.org/abs/1909.06686,-,incremental,2019
 Compute-Efficient Neural Network Architecture Optimization by a Genetic Algorithm,https://link.springer.com/chapter/10.1007/978-3-030-30484-3_32,ICANN,resouce-aware,2019
+HM-NAS: Efficient Neural Architecture Search via Hierarchical Masking ,https://arxiv.org/abs/1909.00122,ICCV,hierarchical mask,2019
+A Novel Encoding Scheme for Complex Neural Architecture Search,https://ieeexplore.ieee.org/document/8793329,ITC-CSCC,encoding-scheme,2019
+A Graph-Based Encoding for Evolutionary Convolutional Neural Network Architecture Design,https://ieeexplore.ieee.org/document/8790093,AIKE,graph-based encoding,2019
+MemNet: Memory-Efficiency Guided Neural Architecture Search with Augment-Trim learning,https://arxiv.org/abs/1907.09569,-,resource-aware,2019
+PC-DARTS: Partial Channel Connections for Memory-Efficient Differentiable Architecture Search,https://arxiv.org/abs/1907.05737,-,resource-aware,2019
+Hardware/Software Co-Exploration of Neural Architectures,https://arxiv.org/abs/1907.04650,-,resource-aware,2019
