@@ -90,7 +90,7 @@ with open('mg.csv') as f:
     headers = next(f_csv)
     rows = []
     for row in f_csv:
-        if row.strip():
+        if str(row).strip():
             rows.append(row)
     for row in sorted(rows, key=lambda x:int(x[-1]), reverse=True):
         paper_name = row[0]
