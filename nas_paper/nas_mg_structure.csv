@@ -19,24 +19,29 @@ DARTS: Differentiable architecture search,-,-,-,2018
 Convolutional neural fabrics,-,NIPS,-,2016
 Connectivity learning in multi-branch networks,-,-,-,2017
 Differentiable neural network architecture search,-,-,-,2018
-ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware,https://arxiv.org/abs/1812.00332,ICLR,resouce-aware,2018
+ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware,https://arxiv.org/abs/1812.00332,ICLR,resource-aware,2018
 sharpDARTS: Faster and More Accurate Differentiable Architecture Search,-,-,-,2019
-Mnasnet: Platform-aware neural architecture search for mobile,https://arxiv.org/abs/1807.11626,CVPR,resouce-aware,2019
-RAPDARTS: Resource-Aware Progressive Differentiable Architecture Search,https://arxiv.org/abs/1911.05704,-,resouce-aware,2019
+Mnasnet: Platform-aware neural architecture search for mobile,https://arxiv.org/abs/1807.11626,CVPR,resource-aware,2019
+RAPDARTS: Resource-Aware Progressive Differentiable Architecture Search,https://arxiv.org/abs/1911.05704,-,resource-aware,2019
 DATA: Differentiable ArchiTecture Approximation,https://papers.nips.cc/paper/8374-data-differentiable-architecture-approximation.pdf,NeurIPS,-,2019
-ENAS Oriented Layer Adaptive Data Scheduling Strategy for Resource Limited Hardware,https://www.sciencedirect.com/science/article/abs/pii/S0925231219315620,Neurocomputing Journal,resouce-aware,2019
+ENAS Oriented Layer Adaptive Data Scheduling Strategy for Resource Limited Hardware,https://www.sciencedirect.com/science/article/abs/pii/S0925231219315620,Neurocomputing Journal,resource-aware,2019
 Deep neural network architecture search using network morphism,https://ieeexplore.ieee.org/abstract/document/8864624,MMAR,morphsim,2019
-Resource Constrained Neural Network Architecture Search: Will a Submodularity Assumption Help?,http://openaccess.thecvf.com/content_ICCV_2019/papers/Xiong_Resource_Constrained_Neural_Network_Architecture_Search_Will_a_Submodularity_Assumption_ICCV_2019_paper.pdf,ICCV,resouce-aware,2019
-On-Device Image Classification with Proxyless Neural Architecture Search and Quantization-Aware Fine-tuning,http://openaccess.thecvf.com/content_ICCVW_2019/papers/LPCV/Cai_On-Device_Image_Classification_with_Proxyless_Neural_Architecture_Search_and_Quantization-Aware_ICCVW_2019_paper.pdf,ICCV,resouce-aware,2019
+Resource Constrained Neural Network Architecture Search: Will a Submodularity Assumption Help?,http://openaccess.thecvf.com/content_ICCV_2019/papers/Xiong_Resource_Constrained_Neural_Network_Architecture_Search_Will_a_Submodularity_Assumption_ICCV_2019_paper.pdf,ICCV,resource-aware,2019
+On-Device Image Classification with Proxyless Neural Architecture Search and Quantization-Aware Fine-tuning,http://openaccess.thecvf.com/content_ICCVW_2019/papers/LPCV/Cai_On-Device_Image_Classification_with_Proxyless_Neural_Architecture_Search_and_Quantization-Aware_ICCVW_2019_paper.pdf,ICCV,resource-aware,2019
 Using Neural Architecture Search to Optimize Neural Networks for Embedded Devices,https://link.springer.com/chapter/10.1007/978-3-030-33509-0_64,3PGCIC,resource-aware,2019
-Energy-aware Neural Architecture Optimization with Fast Splitting Steepest Descent,https://arxiv.org/abs/1910.03103,-,resouce-aware,2019
+Energy-aware Neural Architecture Optimization with Fast Splitting Steepest Descent,https://arxiv.org/abs/1910.03103,-,resource-aware,2019
 Towards modular and programmable architecture search,https://arxiv.org/abs/1909.13404,NeurIPS,-,2019
 Understanding and Improving One-shot Neural Architecture Optimization,https://arxiv.org/abs/1909.10815,-,one-shot,2019
 Neural Architecture Search for Class-incremental Learning,https://arxiv.org/abs/1909.06686,-,incremental,2019
-Compute-Efficient Neural Network Architecture Optimization by a Genetic Algorithm,https://link.springer.com/chapter/10.1007/978-3-030-30484-3_32,ICANN,resouce-aware,2019
+Compute-Efficient Neural Network Architecture Optimization by a Genetic Algorithm,https://link.springer.com/chapter/10.1007/978-3-030-30484-3_32,ICANN,resource-aware,2019
 HM-NAS: Efficient Neural Architecture Search via Hierarchical Masking ,https://arxiv.org/abs/1909.00122,ICCV,hierarchical mask,2019
 A Novel Encoding Scheme for Complex Neural Architecture Search,https://ieeexplore.ieee.org/document/8793329,ITC-CSCC,encoding-scheme,2019
 A Graph-Based Encoding for Evolutionary Convolutional Neural Network Architecture Design,https://ieeexplore.ieee.org/document/8790093,AIKE,graph-based encoding,2019
 MemNet: Memory-Efficiency Guided Neural Architecture Search with Augment-Trim learning,https://arxiv.org/abs/1907.09569,-,resource-aware,2019
 PC-DARTS: Partial Channel Connections for Memory-Efficient Differentiable Architecture Search,https://arxiv.org/abs/1907.05737,-,resource-aware,2019
 Hardware/Software Co-Exploration of Neural Architectures,https://arxiv.org/abs/1907.04650,-,resource-aware,2019
+DPP-Net: Device-aware progressive search for pareto- optimal neural architectures,https://arxiv.org/abs/1806.08198,ECCV,resource-aware,2018
+MONAS: Multi-Objective Neural Architecture Search using Reinforcement Learning,https://arxiv.org/abs/1806.10332,-,resource-aware,2018
+Efficient Multi-objective Neural Architecture Search via Lamarckian Evolution,https://arxiv.org/abs/1804.09081,ICLR,resource-aware,2019
+Resource Constrained Neural Network Architecture Search:Will a Submodularity Assumption Help?,https://arxiv.org/abs/1904.03786,ICCV,resource-aware,2019
+FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search,https://arxiv.org/abs/1812.03443,CVPR,resource-aware,2018
