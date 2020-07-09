@@ -1,14 +1,14 @@
-paper_name, href, publish, year
-Autoaugment: Learning augmentation policies from data, https://arxiv.org/abs/1805.09501, CVPR, 2019
-Specaugment: A simple data augmentation method for automatic speech recognition, -, -, 2017
-Data noising as smoothing in neural network language models,-,-,2017
-Qanet: Combining local convolution with global self-attention for reading comprehension,-,-,2018
-A style-based generator architecture for generative adversarial networks, http://openaccess.thecvf.com/content_CVPR_2019/papers/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.pdf, CVPR, 2019
-Openai gym, -, -, 2016
-A survey on data collection for machine learning: a big data-ai integration perspective, -,-,2018
-Unsupervised word sense disambiguation rivaling supervised methods,-,-,1995
-Democratic co-learning,-,-,2004
-Alphaclean: Automatic generation of data cleaning pipelines,-,-,2019
-Katara: A data cleaning system powered by knowledge bases and crowdsourcing,-,-,2015
-Activeclean: An interactive data cleaning framework for modern machine learning,-,-,2016
-SampleClean: Fast and Reliable Analytics on Dirty Data,-,-,2015
+paper_name, href, publish, comments,year
+Autoaugment: Learning augmentation policies from data, https://arxiv.org/abs/1805.09501, CVPR, , 2019
+Specaugment: A simple data augmentation method for automatic speech recognition, -, -, , 2017
+Data noising as smoothing in neural network language models,-,-,,2017
+Qanet: Combining local convolution with global self-attention for reading comprehension,-,-,,2018
+A style-based generator architecture for generative adversarial networks, http://openaccess.thecvf.com/content_CVPR_2019/papers/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.pdf, CVPR, , 2019
+Openai gym, -, -, , 2016
+A survey on data collection for machine learning: a big data-ai integration perspective, -,-,,2018
+Unsupervised word sense disambiguation rivaling supervised methods,-,-,,1995
+Democratic co-learning,-,-,,2004
+Alphaclean: Automatic generation of data cleaning pipelines,-,-,,2019
+Katara: A data cleaning system powered by knowledge bases and crowdsourcing,-,-,,2015
+Activeclean: An interactive data cleaning framework for modern machine learning,-,-,,2016
+SampleClean: Fast and Reliable Analytics on Dirty Data,-,-,,2015

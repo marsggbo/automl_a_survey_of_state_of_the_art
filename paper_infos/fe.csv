@@ -1,6 +1,6 @@
-paper_name, href, publish, year
-Evolutionary feature space transformation,-,-,1998
-Functional trees,-,-,2004
-Interactive feature space construction using semantic information,-,-,2009
-Relational autoencoder for feature extraction,-,-,2017
-Unsupervised feature extraction with autoencoder trees,-,-,2017
+paper_name, href, publish,comments, year
+Evolutionary feature space transformation,-,-,,1998
+Functional trees,-,-,,2004
+Interactive feature space construction using semantic information,-,-,,2009
+Relational autoencoder for feature extraction,-,-,,2017
+Unsupervised feature extraction with autoencoder trees,-,-,,2017

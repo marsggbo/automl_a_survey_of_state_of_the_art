@@ -144,8 +144,8 @@ full_page = """
 """%(survey, 
     data_preparation, 
     feature_engineering,
-    model_generation,
-    model_evaluation)
+    nas,
+    other)
 
 with open('../docs/papers.html', 'w') as f:
     f.write(full_page)
