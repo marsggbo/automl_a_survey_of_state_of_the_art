@@ -1,6 +1,7 @@
-paper_name, href, publish, ,year
+paper_name, href, publish, comments,year
 AutoML: A Survey of the State-of-the-Art, https://arxiv.org/pdf/1908.00709, -, ,2019
 Neural architecture search: A survey, http://jmlr.org/papers/volume20/18-598/18-598.pdf, -,, 2018
 Taking human out of learning applications: A survey on automated machine learning, https://arxiv.org/pdf/1810.13306, -,, 2018
 Survey on automated machine learning, https://arxiv.org/abs/1904.12054, -, ,2019
 Reinforcement Learning for Neural Architecture Search: A Review,https://www.sciencedirect.com/science/article/pii/S026288561930088,Image and Vision Computing,,2019
+A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions,https://arxiv.org/abs/2006.02903,-,-,2020
