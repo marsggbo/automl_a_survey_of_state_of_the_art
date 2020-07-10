@@ -1,4 +1,20 @@
-paper_name, href, publish, comments,,year
+paper_name, href, publish, comments,year
+when NAS Meets Robustness：In Search of Robust Architectures against Adversarial Attacks,-,CVPR,robustness,2020
+On Robustness of Neural Architecture Search Under Label Noise,-,-,robustness,2020
+Evolving Robust Neural Architectures to Defend from Adversarial Attacks,-,-,robustness,2020
+Is Neural Architecture Search A Way Forward to Develop Robust Neural Networks?-,-,robustness,2020
+Tabular Benchmarks for Joint Architecture and Hyperparameter Optimization,-,-,HAO,2019
+Towards Automated Deep Learning: Efficient Joint Neural Architecture and Hyperparameter Search,-,-,HAO;Benchmark,2018
+AutoHAS: Differentiable Hyper-parameter and Architecture Search,-,-,HAO,2020
+FBNetV3: Joint Architecture-Recipe Search using Neural Acquisition Function,-,-,HAO,2020
+Auto-Meta: Automated Gradient Based Meta Learner Search,-,NeurIPS,meta-learning NAS,2018
+Meta-Learning of Neural Architectures for Few-Shot Learning,-,-,meta-learning NAS,2018
+Towards Fast Adaptation of Neural Architectures with Meta Learning,-,-,meta-learning NAS,2018
+NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search,-,ICLR,benchmark,2020
+NAS-Bench-101: Towards Reproducible Neural Architecture Search,https://arxiv.org/abs/1902.09635,ICML,benchmark,2019
+NAS-Bench-NLP: Neural Architecture Search Benchmark for Natural Language Processing,https://arxiv.org/abs/2006.07116,-,benchmark,2020
+NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search,-,-,benchmark,2020
+Densely Connected Search Space for More Flexible Neural Architecture Search,-,-,GD,2019
 Neural architecture search with reinforcement learning,http://arxiv.org/abs/1611.01578,-,,2016
 Efficient neural architecture search via parameter sharing,http://proceedings.mlr.press/v80/pham18a.html,ICML,,2018
 Learning transferable architectures for scalable image recognition,https://arxiv.org/abs/1707.07012,CVPR,,2017
