@@ -1,1 +1,14 @@
 paper_name, href, publish, comments,year
+Auto-fpn: Automatic network architecture adaptation for object detection beyond classification,-,ICCV,object detection,2019
+Efficientdet: Scalable and efficient object detection,-,-,object detection,2019
+Detnas: Neural architecture search on object detection,-,-,object detection,2019
+Hierarchical trinity architecture search for object detection,-,CVPR,object detection,2020
+Sp-nas: Serial-to-parallel backbone search for object detection,-,CVPR,object detection,2020
+Auto-deeplab:Hierarchical neural architecture search for semantic image segmentation,-, ,segmentation,2019
+Nas-unet: Neural architecture search for medical image segmentation,-,IEEE Access,segmentation,2019
+Fast neural architecture search of compact semantic segmentation models via auxiliary cells,-,CVPR ,segmentation,2019
+Resource optimized neural architecture search for 3d medical image segmentation,-,International Conference on Medical Image Computing and Computer-Assisted Intervention,segmentation,2019
+Searching learning strategy with reinforcement learning for 3d medical image segmentation,-,International Conference on Medical Image Computing and Computer-Assisted Intervention,segmentation,2019
+Neural architecture search for adversarial medical image segmentation,-,International Conference on Medical Image Computing and Computer-Assisted Intervention,segmentation,2019
+Scalable neural architecture search for 3d medical image segmentation,-,International Conference on Medical Image Computing and Computer-Assisted Intervention,segmentation,2019
+Auto-reid: Searching for a part-aware convnet for person re-identification,-,ICCV,REID,2019
