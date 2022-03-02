@@ -6,20 +6,20 @@
 
 # Upload your paper
 
-Suppose your paper is also a AutoML-related survey, then you can simply upload your paper with the following steps on the Github.
+If your paper is also an AutoML-related survey, then you can simply upload your paper through the following steps on the Github.
 
-- click `paper_infos` directory
+- 1. click `paper_infos` directory
 ![](./docs/images/upload_1.png)
 
-- click a csv file related to your paper
+- 2. click a csv file related to your paper
 ![](./docs/images/upload_2.png)
 
-- click `Edit this file`
+- 3. click `Edit this file`
 ![](./docs/images/upload_3.png)
 
 
-- add your paper information
+- 4. add your paper information
 ![](./docs/images/upload_4.png)
 
-- commit changes
+- 5. commit changes
 ![](./docs/images/upload_5.png)
