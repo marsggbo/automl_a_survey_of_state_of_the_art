@@ -1,7 +1,10 @@
 name: Python application
 
-on: [push]
-
+on: 
+  push:
+    branches: [automl_a_survey_of_state_of_the_art]
+  pull_request:
+    branches: [automl_a_survey_of_state_of_the_art]
 jobs:
   build:
 
